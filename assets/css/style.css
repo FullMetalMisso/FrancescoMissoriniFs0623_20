@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,700&family=Spectral:wght@200&display=swap');
+body svg {
+    display: none;
+}
+
+
+/********************************************************************************************/
+@media screen and (min-width: 350px) {
+body {
+    font-size: 18px;
+    font-family: 'Roboto Serif', serif;
+    font-family: 'Spectral', serif;
+}
+a  {
+    text-decoration: none;
+    color: black;
+}
+#trendingBox, section, aside{
+    margin-left: 5%;
+}
+
+header{
+    width: 100%;
+    background-color: #ffc017;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:solid 1px black;
+    padding: 1%;
+    
+}
+
+header ul li {
+    display: inline
+}
+ul {
+    list-style: none;
+}
+.bigVisible{
+    display: none;
+}
+#contenitoreProblematico{
+    padding-left: 5%;
+    padding-top: 20%;
+    height:12em;
+    background-color: #ffc017;
+ 
+}
+
+#contenitoreProblematico span{
+    font-size: 40px;
+    font-weight: bold;
+}
+#contenitoreProblematico p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.blackButton {
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+#trendingBox {
+    align-items: center;
+    display: flex;
+}
+
+#sezioneFlex div {
+    margin-bottom: 5%;
+}
+#sezioneFlex img{
+    border-radius: 100%;
+}
+#sezioneFlex div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 1.8;
+
+}
+#sezioneFlex div p:nth-child(1) {
+   color: lightgrey;
+    margin-right: 5%;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#sezioneFlex div p:nth-child(3) {
+    align-self: center;
+    margin-left: 2%;
+
+}
+
+#sezioneFlex div p:nth-child(4) {
+    font-weight: bold;
+    flex-basis: 500px;
+    margin-left: 10%;
+
+}
+
+#sezioneFlex div p:nth-child(5) {
+    flex-basis: 200px;
+    margin-left: 10%;
+}
+
+hr{
+margin-top: 5%;
+ height: 0.1px;
+ color: lightgray;
+}
+#boxScoperta p{
+    margin-bottom: 5%
+}
+
+#boxScoperta a{
+    line-height: 3;
+    border: 3px solid whitesmoke;
+    padding: 2%;
+}
+
+#similFooter ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#similFooter ul li{
+    padding: 2%;
+}
+section span {
+        background-color: lightgray;
+        line-height: 2;
+        border: 3px solid whitesmoke;
+        padding: 2%;
+        border-radius: 20px;
+    }
+
+#flexNews {
+    margin-top: 5%; 
+}
+
+#flexNews img {
+    display: inline;
+   
+}
+
+.compagnia {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+#flexNews p:nth-child(3n-1) {
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+#flexNews div {
+    margin-top: 15%;
+}
+
+.immagineMaledetta{
+   display: flex;
+   flex-direction: column;
+}
+}
+@media screen and (min-width: 551px) {
+    .bigVisible{
+    display: contents;
+}
+
+#sezioneFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+#sezioneFlex div p:nth-child(4) {
+    font-weight: bold;
+    flex-basis: 500px;
+    margin-left: 10%;
+
+}
+#sezioneFlex div {
+    flex-basis:300px
+}
+}
